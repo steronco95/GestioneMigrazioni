@@ -33,6 +33,11 @@ public class CountryAndNumber implements Comparable<CountryAndNumber> {
 		return -(this.number-other.number);
 	}
 	
+	public String toString() {
+		
+		return country + " " + number;
+	}
+	
 	
 
 }
